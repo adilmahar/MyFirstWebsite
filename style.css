@@ -1,0 +1,14 @@
+body{
+    background-color: gray;
+    
+}
+#fofo{
+    border: dotted;
+    text-align: center;
+    font-size: larger;
+    width: auto;
+    margin: auto;
+}
+form{
+    text-align: center;
+}
