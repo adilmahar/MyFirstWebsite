@@ -1,0 +1,90 @@
+.le{
+    
+    list-style: none;
+    
+    color: white;
+    text-align: center;
+    padding: 1%;
+    
+    display: inline-block;
+    
+    
+    height: 100%;
+    font-size: larger;
+    text-decoration: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+nav{
+    background-color: rgb(36, 30, 30);
+   
+    overflow: auto;
+    text-align: center;
+    
+    padding: 0%;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    
+}
+ul{
+    text-align: center;
+   
+    overflow: auto;
+    padding: 0%;
+    margin: 0.5%;
+    height: 50%;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+#login{
+    background-color: rgb(36, 30, 30);
+    margin: auto;
+    margin-top: 10%;
+    width: 70%;
+    padding: 2%;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+main{
+    margin: 0%;
+    
+    padding: 0%;
+
+}
+header{
+    margin: 0%;
+    
+}
+h1 {
+    margin: 1%;
+}
+body{
+    background-color: rgb(60, 63, 70);
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+input{
+    margin: 1%;
+}
+#subm{
+    
+    margin: auto;
+}
+#goofydiv{
+    background-color: rgb(36, 30, 30);
+    margin: auto;
+    margin-top: 10%;
+    width: 80%;
+    padding: 2%;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
