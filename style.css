@@ -16,21 +16,23 @@
     padding-right: 2%;
     
 }
+
 nav{
-    background-color: rgb(36, 30, 30);
-   
+    background-color: rgba(36, 36, 36, 0.5); /* semi-transparent */
+    backdrop-filter: blur(25px);
     overflow: auto;
     text-align: center;
-    
+    margin-bottom: 20%;
+    position: fixed;
     padding: 0%;
-    width: auto;
+    width: 100%;
     height: auto;
     text-decoration: none;
+    
     
 }
 ul{
     text-align: center;
-   
     overflow: auto;
     padding: 0%;
     margin: 0.5%;
@@ -39,6 +41,7 @@ ul{
 .nav a{
     text-decoration: none;
     color: white;
+    
 }
 
 #login{
@@ -59,8 +62,9 @@ main{
 }
 header{
     margin: 0%;
-    
+    overflow: hidden
 }
+
 h1 {
     margin: 1%;
 }
@@ -81,10 +85,33 @@ input{
 #goofydiv{
     background-color: rgb(36, 30, 30);
     margin: auto;
-    margin-top: 10%;
-    width: 80%;
+    margin-top: 15%;
+    width: 50%;
     padding: 2%;
     text-align: center;
     color: white;
     font-size: larger;
+    
+}
+
+#foot{
+    border: dotted;
+    background-color: aliceblue;
+    padding: 10px;
+    background: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+   display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.lowli{
+    display: inline;
+    border: dotted;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    height: 100%;
 }
