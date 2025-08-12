@@ -20,6 +20,7 @@ document.getElementById("subm").onclick = function(){
     console.log(`[Log]: Userinput is`, user)
 
 
-    document.getElementById("UserInputPassword").textContent = `Yours Password is: ${password}`
+    document.getElementById("UserInputPassword").textContent = `Your Password is: ${password}`
     console.log(`[Log]: Userinput is`, password)
+
 }
