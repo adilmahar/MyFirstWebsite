@@ -1,0 +1,142 @@
+.le{
+    
+    list-style: none;
+    
+    color: rgb(245, 234, 234);
+    text-align: center;
+    padding: 15px;
+    
+    display: inline-block;
+    
+    
+    height: 100%;
+    font-size: larger;
+    text-decoration: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: hsl(36, 36, 36,0.5);
+}
+
+nav{
+    background-color: rgba(36, 36, 36, 0.5); /* semi-transparent */
+    backdrop-filter: blur(25px);
+    overflow: auto;
+    text-align: center;
+    margin-bottom: 0%;
+    position: fixed;
+    padding: 0%;
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    
+    
+}
+ul{
+    text-align: center;
+    overflow: auto;
+    padding: 0%;
+    margin: 0.5%;
+    height: 50%;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+#login{
+    background-color: rgba(0, 0, 0, 0.856);
+     backdrop-filter: blur(50px);
+    margin: auto;
+    margin-top: 15%;
+    width: 70%;
+    padding: 2%;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+main{
+    margin: 0%;
+    
+    padding: 0%;
+
+}
+header{
+    margin: 0%;
+    overflow: hidden
+}
+
+h1 {
+    margin: 1%;
+}
+body{
+    background-color: rgb(91, 70, 129);
+    background-image: url('./img/how-players-will-shape-video-games-next-big-thing_nbus.1280.webp'); /* Path to your image */
+    background-size: cover;                  /* Scales image to fill screen */
+    background-position: center;             /* Centers image */
+    background-repeat: no-repeat;            /* Prevents tiling */
+    background-attachment: fixed;            
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+input{
+    margin: 1%;
+}
+#subm{
+    
+    margin: auto;
+}
+#goofydiv{
+
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 15%;
+    width: 70%;
+    padding: 2%;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    
+}
+
+#foot{
+    border: dotted;
+    background-color: aliceblue;
+    padding: 10px;
+    background: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+   display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.lowli{
+    display: inline;
+    border: dotted;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    height: 100%;
+}
+
+
+@media (max-width: 800px){
+    #login{
+        background-color: rgba(0, 0, 0, 0.856);
+     backdrop-filter: blur(50px);
+    
+       margin-top: 30%;
+    }
+    label:nth-of-type(2)::before {
+    content: "";
+    display: block; /* behaves like a <br> */
+  }
+
+}
+label, input {
+  vertical-align: middle;
+}
