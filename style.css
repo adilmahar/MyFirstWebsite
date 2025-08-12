@@ -18,6 +18,7 @@
 }
 
 nav{
+    z-index: 99;
     background-color: rgba(36, 36, 36, 0.5); /* semi-transparent */
     backdrop-filter: blur(25px);
     overflow: auto;
@@ -139,4 +140,5 @@ input{
 }
 label, input {
   vertical-align: middle;
+
 }
